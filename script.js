@@ -5,7 +5,7 @@ window.onload = function() {
       x = 0,
       y = 0;
   
-  image.src = "http://bit-101.com/horse.jpg";
+  image.src = "https://bit-101.com/horse.jpg";
   image.addEventListener("load", function() {
     setInterval(animate, 1000/15);
   });
